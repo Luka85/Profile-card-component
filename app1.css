@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    box-sizing:border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background: no-repeat #19a2ae; ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* spremeni profile card v column in ga da na sredino*/
+    align-items: center; /* spremeni profile card v column in ga da na sredino*/
+    min-height: 100vh; 
+   
+}
+.pattern-background {
+    position: fixed; /* spremeni ozadje v fixed,se ne premika*/
+    transform: scale(1) translate(-520px, -380px) rotate(140deg);
+    z-index: 0; /* z-index 0 postavi sliko cisto v ozadje*/
+    opacity: 0.6;
+}
+.pattern-background1 {
+    position: fixed; /* spremeni ozadje v fixed,se ne premika*/
+    transform: scale(1) translate(400px, 550px) rotate(30deg);
+    z-index: 0; /* z-index 0 postavi sliko cisto v ozadje*/
+    opacity: 0.6;
+}
+
+.profile-card {
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    z-index: 2; /* z-index 2 postavi card cisto v ospredje*/
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0.5px #1794a0;;
+    
+}
+.profile-card .pattern-card-image{
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-card .personal-information {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c1c5d6;
+}
+.profile-card .profile-picture {
+    border-radius: 50%;
+    border:5px solid white;
+    transform:translateY(-55px);
+    margin-bottom: -35px;
+}
+.profile-card .personal-information .name-age{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 18px;
+    color:#2d3248;
+    margin: 10px 0;
+}
+.name-age .name{
+    color:#2d3248;
+    font-weight: 700;
+    margin-right: 0.5em;
+  
+}
+.personal-information .age, .place{
+    color:#6a6f81;
+}
+.personal-information .place{
+    font-size: 15px;
+}
+
+.profile-card .bottom{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0 25px 0;
+    text-align: center;
+    
+}
+.number-of .name{
+    color:#2d3248;
+    font-weight: 700;
+    font-size: 18px;
+} 
+
+.number-of .fol-lik-pho{
+   font-size:11px;
+   letter-spacing: 1px;
+   color:#6a6f81;
+   padding-top: 8px;
+}
+

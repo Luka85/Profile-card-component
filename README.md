@@ -7,7 +7,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 
 ## Overview

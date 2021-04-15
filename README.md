@@ -6,6 +6,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -17,8 +18,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![](./final-version-desktop.png)
 
+### Links
+
+- Live Site URL: [https://luka85.github.io/Profile-card-component/]
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+-
+
+
